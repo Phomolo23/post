@@ -16,7 +16,7 @@ const[count, setcount] = useState(0);
             <TouchableOpacity>
                 <View style={styles.reactocc}>
                     <Text>{count} likes</Text>
-                    <SimpleLineIcons name="like" onPress ={onPres} size={24} color="blue" /><Text style={styles.hot}> </Text>
+                    <SimpleLineIcons name="like" onPress ={onPres} size={24} color="blue" /><Text style={styles.styler}> </Text>
                     
                 </View>
             </TouchableOpacity>
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
         height: 20
      },
      
-    hot: {
+     styler: {
         fontSize: 16,
         fontWeight: 'bold',
         justifyContent: 'space-around',

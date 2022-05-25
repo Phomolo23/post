@@ -30,10 +30,10 @@ export default function App() {
 
     
       </View>
-      <View style={styles.click}>
-        <TouchableOpacity >
-          <Button title='share' onPress={sharepost} />
-        </TouchableOpacity>
+       <View style={styles.click}>
+         <TouchableOpacity >
+        <Button title='share' onPress={sharepost} />
+       </TouchableOpacity>
 
       </View>
 
@@ -60,10 +60,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 10
 
-
-
-
-  },
+ },
   input: {
     borderWidth: 1,
     justifyContent: 'center',
@@ -73,6 +70,7 @@ const styles = StyleSheet.create({
     padding: 10,
     marginVertical: 2
   },
+
   click: {
     alignSelf: 'center',
     paddingHorizontal: 18,
