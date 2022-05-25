@@ -26,13 +26,13 @@ export default function App() {
 
         <TextInput placeholder='share your feelings with friends'
           multiline={true}
-          style={styles.input} value={text} onChangeText={setText} />
+          style={styles.input} value={text} onChangeText={setText}/>
 
     
       </View>
        <View style={styles.click}>
          <TouchableOpacity >
-        <Button title='share' onPress={sharepost} />
+        <Button title='share' onPress={sharepost}/>
        </TouchableOpacity>
 
       </View>
